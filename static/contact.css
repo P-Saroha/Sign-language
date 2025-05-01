@@ -1,0 +1,45 @@
+/* General Body Styling */
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Contact Section Styling */
+  .contact-text {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the contact box */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Social Media Icons Styling */
+  .social-icons a {
+    font-size: 40px;
+    margin: 0 20px;
+    color: #343a40; /* Dark text color */
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Blue color when hovering */
+    transform: scale(1.1);
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 1.5rem 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

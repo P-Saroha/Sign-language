@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sign Language</title>
+    <meta name="description" content="Detailed documentation on sign language, types, structure, applications, and history.">
+    <meta name="keywords" content="Sign Language, ASL, BSL, Deaf, Gesture Recognition, Linguistics">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        h2 {
+            margin-top: 2rem;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .top-button {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sign Language Info</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center mb-5">📘 Sign Language: Comprehensive Documentation</h1>
+
+        <h2>🧠 1. Introduction</h2>
+        <p class="lead">Sign Language is a visual-manual language used primarily by the Deaf and hard-of-hearing communities. Instead of using sounds, it uses <strong>hand gestures</strong>, <strong>facial expressions</strong>, <strong>body posture</strong>, and <strong>movement</strong> to convey meaning.</p>
+
+        <h2>🏛️ 2. History of Sign Language</h2>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr><th scope="col">Era</th><th scope="col">Milestone</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Ancient Times</td><td>Visual gestures were used before spoken language evolved. Plato referenced signs for communication among the deaf.</td></tr>
+                <tr><td>17th Century</td><td>Juan Pablo Bonet published a book on teaching sign language using fingerspelling.</td></tr>
+                <tr><td>18th Century</td><td>Charles-Michel de l'Épée founded the first free school for the Deaf in Paris, developed Old French Sign Language.</td></tr>
+                <tr><td>19th Century</td><td>Thomas Hopkins Gallaudet and Laurent Clerc brought French Sign Language to the USA, evolving into American Sign Language (ASL).</td></tr>
+                <tr><td>Modern Era</td><td>Sign languages are now recognized officially in many countries, with significant research and technological development.</td></tr>
+            </tbody>
+        </table>
+
+        <h2>🌐 3. Types of Sign Languages</h2>
+        <p class="lead">Sign languages are not universal. Different countries and regions have their own unique versions.</p>
+        <table class="table table-striped">
+            <thead class="table-primary">
+                <tr><th scope="col">Language</th><th scope="col">Region</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><span class="badge bg-info text-dark">ASL</span> (American Sign Language)</td><td>USA, parts of Canada</td></tr>
+                <tr><td><span class="badge bg-info text-dark">BSL</span> (British Sign Language)</td><td>UK</td></tr>
+                <tr><td><span class="badge bg-info text-dark">ISL</span> (Indian Sign Language)</td><td>India</td></tr>
+                <tr><td>Auslan</td><td>Australia</td></tr>
+                <tr><td>LSF (Langue des Signes Française)</td><td>France</td></tr>
+                <tr><td>DGS (Deutsche Gebärdensprache)</td><td>Germany</td></tr>
+                <tr><td>JSL (Japanese Sign Language)</td><td>Japan</td></tr>
+                <tr><td>IS (International Sign)</td><td>Used at international Deaf events</td></tr>
+            </tbody>
+        </table>
+
+        <h2>🧬 4. Linguistic Structure of Sign Language</h2>
+        <ul>
+            <li><strong>Phonology</strong>: Handshape, orientation, location, movement, and facial expressions.</li>
+            <li><strong>Morphology</strong>: Inflection and derivation of signs.</li>
+            <li><strong>Syntax</strong>: Unique word order like "STORE I GO" (ASL).</li>
+            <li><strong>Semantics</strong>: Context-based meanings.</li>
+            <li><strong>Pragmatics</strong>: Emotional and tone elements via visual cues.</li>
+        </ul>
+
+        <h2>🖐️ 5. Elements of a Sign</h2>
+        <table class="table table-bordered">
+            <thead class="table-secondary">
+                <tr><th scope="col">Feature</th><th scope="col">Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Handshape</td><td>Configuration of fingers</td></tr>
+                <tr><td>Location</td><td>Where the sign is made in relation to the body</td></tr>
+                <tr><td>Movement</td><td>Direction and speed of motion</td></tr>
+                <tr><td>Orientation</td><td>Direction the palm and fingers are facing</td></tr>
+                <tr><td>Non-manual Markers</td><td>Facial expressions, head tilts, lip patterns</td></tr>
+            </tbody>
+        </table>
+
+        <h2>📚 6. Fingerspelling</h2>
+        <p>Used to spell proper nouns, technical terms, or words without signs. Each alphabet has a unique hand gesture. ASL and BSL differ in finger alphabets.</p>
+
+        <h2>💻 7. Applications in Technology</h2>
+        <ul>
+            <li><strong>Sign Language Recognition</strong>: CNNs/RNNs to recognize gestures</li>
+            <li><strong>Real-time Translation</strong>: Translate signs to text/speech using computer vision</li>
+            <li><strong>VR/AR</strong>: Immersive learning experiences</li>
+            <li><strong>Gesture-controlled Devices</strong>: Input for accessibility</li>
+        </ul>
+        <p><strong>Datasets:</strong> RWTH-BOSTON-50, Sign Language MNIST, Indian Sign Language, WLASL</p>
+
+        <h2>🧪 8. Tools and Frameworks</h2>
+        <ul>
+            <li><strong>Libraries:</strong> OpenCV, MediaPipe, TensorFlow/Keras</li>
+            <li><strong>Models:</strong> CNNs, RNNs/LSTMs, Transformers</li>
+            <li><strong>Apps:</strong> Webcam-based systems, mobile apps, sensor gloves</li>
+        </ul>
+
+        <h2>🎯 9. Challenges</h2>
+        <table class="table table-bordered">
+            <thead class="table-warning">
+                <tr><th scope="col">Challenge</th><th scope="col">Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Variability</td><td>Same sign can differ in dialects or contexts</td></tr>
+                <tr><td>Occlusion</td><td>Hands may be blocked from view</td></tr>
+                <tr><td>Lighting</td><td>Poor lighting affects detection</td></tr>
+                <tr><td>Continuous Signing</td><td>Hard to segment individual signs</td></tr>
+            </tbody>
+        </table>
+
+        <h2>🔮 10. Future Scope</h2>
+        <ul>
+            <li>Integration with AI assistants</li>
+            <li>IoT control via gestures</li>
+            <li>Standardization efforts</li>
+            <li>Government-supported inclusive education</li>
+        </ul>
+
+        <h2>📑 11. References</h2>
+        <ul>
+            <li>"The Linguistics of Sign Language" - Ceil Lucas</li>
+            <li><a href="https://www.lifeprint.com" target="_blank">American Sign Language University</a></li>
+            <li><a href="https://github.com/dxli94/WLASL" target="_blank">WLASL Dataset</a></li>
+            <li>Indian Sign Language Research and Training Centre (ISLRTC)</li>
+        </ul>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button onclick="topFunction()" class="btn btn-primary top-button">⬆️ Top</button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Back to Top JS -->
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
