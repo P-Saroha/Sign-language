@@ -27,4 +27,4 @@ This project is a real-time **Sign Language Recognition System** that detects an
 ---
 
 ## 📂 Project Structure
-
+sign-language-recognition/ │ ├── static/ │ ├── styles.css │ ├── contact.css │ └── app.js │ ├── templates/ │ ├── index.html │ ├── contact.html │ └── documentation.html │ ├── model/ │ └── gesture_model.h5 │ ├── app.py ├── requirements.txt └── README.md
