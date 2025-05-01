@@ -28,3 +28,127 @@ This project is a real-time **Sign Language Recognition System** that detects an
 
 ## 📂 Project Structure
 sign-language-recognition/ │ ├── static/ │ ├── styles.css │ ├── contact.css │ └── app.js │ ├── templates/ │ ├── index.html │ ├── contact.html │ └── documentation.html │ ├── model/ │ └── gesture_model.h5 │ ├── app.py ├── requirements.txt └── README.md
+
+
+---
+
+## 🖥️ How to Run the Project
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/sign-language-recognition.git
+   cd sign-language-recognition
+Create a virtual environment (optional but recommended)
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the Flask application
+
+bash
+Copy
+Edit
+python app.py
+Open in Browser
+Visit http://127.0.0.1:5000 to use the app.
+
+📸 Screenshots
+Insert screenshots of your web app here.
+
+📬 Contact
+If you have suggestions, feedback, or need help with the project, feel free to reach out through:
+
+
+
+
+🤝 Contributions
+Pull requests are welcome. If you’d like to improve or contribute to the project, please fork the repo and create a new branch.
+
+📄 License
+This project is open source and available under the MIT License.
+
+📝 Requirements
+The following Python packages are required to run the project:
+
+Flask
+
+OpenCV
+
+TensorFlow
+
+Keras
+
+NumPy
+
+scikit-learn
+
+Pillow
+
+Install the required dependencies using the following command:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🧑‍💻 Development
+To start developing or testing locally, follow the steps below:
+
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/sign-language-recognition.git
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the app:
+
+bash
+Copy
+Edit
+python app.py
+🔍 How It Works
+This application uses a Convolutional Neural Network (CNN) model trained to recognize hand gestures in real-time using a webcam feed. It works as follows:
+
+Data Collection: A dataset of hand gesture images is collected, consisting of various sign language gestures.
+
+Model Training: A CNN model is trained on this dataset to recognize and classify the gestures.
+
+Live Detection: The app captures webcam input and processes it in real-time to detect the user's hand gesture and match it to the corresponding sign language gesture.
+
+🧑‍🏫 Learning Resources
+OpenCV Documentation
+
+TensorFlow Documentation
+
+Keras Documentation
+
+Flask Documentation
+
+👩‍💻 Authors
+Parveen Saroha - Developer - P-Saroha
+
+📈 Future Enhancements
+🧠 Enhance gesture recognition with more hand gestures and refine the accuracy.
+
+🔄 Implement gesture translation to speech for complete accessibility.
+
+🌍 Deploy the app to the cloud for global access.
+
+vbnet
+Copy
+Edit
+
+Now, the **`README.md`** is in a proper format and ready to be used in your project repository. Let me 
