@@ -74,12 +74,6 @@ sign-language-recognition/
 
 [Insert screenshots of your web app here]
 
-## 📬 Contact
-
-If you have suggestions, feedback, or need help with the project, feel free to reach out through:
-- [Your Email]
-- [Your LinkedIn]
-- [GitHub Issues](https://github.com/yourusername/sign-language-recognition/issues)
 
 ## 🤝 Contributions
 
@@ -141,7 +135,7 @@ This application uses a Convolutional Neural Network (CNN) model trained to reco
 
 ## 👩‍💻 Authors
 
-- Your Name - Developer - [Your GitHub Profile](https://github.com/yourusername)
+- ParveenSaroha - Developer - [Your GitHub Profile](https://github.com/yourusername)
 
 ## 📈 Future Enhancements
 
