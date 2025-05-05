@@ -135,7 +135,7 @@ This application uses a Convolutional Neural Network (CNN) model trained to reco
 
 ## 👩‍💻 Authors
 
-- ParveenSaroha - Developer - [Your GitHub Profile](https://github.com/yourusername)
+- ParveenSaroha - Developer - [Your GitHub Profile]([https://github.com/yourusername](https://github.com/P-Saroha))
 
 ## 📈 Future Enhancements
 
