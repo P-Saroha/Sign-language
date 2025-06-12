@@ -33,7 +33,7 @@ video_capture = cv2.VideoCapture(0)
 hand_detector = HandDetector(maxHands=2)  # Detect up to 2 hands
 padding = 20  # Padding around the hand bounding box
 image_size = 300  # Size to resize the image
-save_folder = "Data/Hclea"  # Folder to save the captured images
+save_folder = "Data/H"  # Folder to save the captured images
 image_counter = 0  # Counter to track saved images
 
 while True:
